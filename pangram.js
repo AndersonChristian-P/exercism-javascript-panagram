@@ -1,4 +1,4 @@
-let alphabetNumberOfCharacters = 26
+const alphabetNumberOfCharacters = 26
 
 export const isPangram = str => {
 
