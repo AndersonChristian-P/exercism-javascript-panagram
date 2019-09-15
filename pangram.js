@@ -8,10 +8,6 @@ export const isPangram = str => {
 
   const strLetters = new Set(str.toLowerCase().match(/[a-z]/g))
 
-  if (strLetters.size === alphabetNumberOfCharacters) {
-    return true
-  } else {
-    return false
-  }
+  return strLetters.size === alphabetNumberOfCharacters ? true : false
 
 };
